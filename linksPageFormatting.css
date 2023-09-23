@@ -1,0 +1,69 @@
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    zoom: 175%
+}
+
+.linkImages {
+    vertical-align: middle;
+    margin-right: .5vw;
+    margin-left: auto;
+    height: 3vw;
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blsLogo {
+    display: block;
+    margin-top: 0vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15vw;
+    width: 80vw;
+}
+
+.blsGif {
+    zoom: 100%;
+    height: 8vw;
+}
+
+.link {
+    font: bold 2vw Courier New;
+    text-decoration: none;
+    color: black;
+}
+
+.linkLogo {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    outline-color: rgb(0,116,217);
+    outline-width: .25vw;
+    outline-style: solid;
+    border-radius: 1vw;
+    width: auto;
+    padding: 1vw 8vw;
+    height: 7vw;
+    margin: 1vw auto;
+    margin-bottom: 5vw;
+    /*box-shadow: 5px 5px gray;*/
+}
